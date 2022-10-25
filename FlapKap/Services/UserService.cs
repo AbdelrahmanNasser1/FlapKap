@@ -99,25 +99,15 @@ namespace FlapKap.Services
             UpdateModel objResult = new UpdateModel();
             try
             {
-                if(model.Deposit!= 5 && model.Deposit != 10 && model.Deposit != 20 && model.Deposit != 50 && model.Deposit != 100)
-                {
-                    objResult.status = StatusMessages.InvalidAmounts;
-                    _logger.LogInformation(string.Format("Invalid deposit amount {0}", model.Deposit));
-                    return objResult;
-                }
                 User user = _userRepo.GetAll(i=>i.Id == model.Id).FirstOrDefault();
                 if (user != null)
                 {
-                    if (user.RoleId != model.RoleId)
-                    {
-                        objResult.status = StatusMessages.InvalidRole;
-                        _logger.LogInformation(string.Format("User Can not Update his Role{0}", model.Deposit));
-                        return objResult;
-                    }
                     User updateUser = _mapper.Map<User>(model);
+                    updateUser.Deposit = user.Deposit;
+                    updateUser.RoleId = user.RoleId;
                     _userRepo.Update(updateUser);
                     _userRepo.Save();
-                    objResult.user = _mapper.Map<UserModel>(user);
+                    objResult.user = _mapper.Map<UserModel>(updateUser);
                     objResult.status = StatusMessages.Success;
 
                 }

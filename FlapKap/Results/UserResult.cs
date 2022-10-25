@@ -54,9 +54,6 @@ namespace FlapKap.Response
         public string UserName { get; set; }
         [JsonPropertyName("passsword")]
         public string Password { get; set; }
-        [JsonPropertyName("deposit")]
-        public int Deposit { get; set; }
-        [JsonPropertyName("role_id")]
-        public int RoleId { get; set; }
+
     }
 }
