@@ -38,4 +38,16 @@ namespace FlapKap.Validators
                 .WithMessage("Note!. Password length shouldn't less than 8 characters");
         }
     }
+    public class DepositModelValidator : AbstractValidator<DepositModel>
+    {
+        public DepositModelValidator()
+        {
+
+            RuleFor(x => x.Deposit).NotNull().NotEmpty()
+                .WithMessage("Note!. User name  is required")
+                .GreaterThan(0)
+                .WithMessage("Note!. cost shoud greater than 0 .");
+    
+        }
+    }
 }

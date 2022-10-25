@@ -44,10 +44,12 @@ namespace FlapKap
                 .AddFluentValidation(x =>
                 {
                     x.ImplicitlyValidateChildProperties = true;
+                    x.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
 
                 });
             services.AddTransient<IValidator<UpdateProductModel>, UpdateProductValidator>();
             services.AddTransient<IValidator<UserInfo>, UserInfoValidator>();
+            services.AddTransient<IValidator<DepositModel>, DepositModelValidator>();
             
             services.AddSwaggerGen(c =>
             {

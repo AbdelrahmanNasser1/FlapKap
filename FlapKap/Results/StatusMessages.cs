@@ -21,6 +21,8 @@ namespace FlapKap.Results
         public static Status UnAuthorized = new Status() { is_success = false, error_code = "E007", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E007"] };
         public static Status DuplicatedProductName = new Status() { is_success = false, error_code = "E008", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E008"] };
         public static Status UnAuthenticated = new Status() { is_success = false, error_code = "E009", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E009"] };
+        public static Status UnAuthorizedDeposit = new Status() { is_success = false, error_code = "E010", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E010"] };
+
 
 
 
