@@ -46,8 +46,33 @@ namespace FlapKap.Validators
             RuleFor(x => x.Deposit).NotNull().NotEmpty()
                 .WithMessage("Note!. User name  is required")
                 .GreaterThan(0)
-                .WithMessage("Note!. cost shoud greater than 0 .");
+                .WithMessage("Note!. cost shoud be greater than 0 .");
     
+        }
+    }
+    public class BuyModelValidator : AbstractValidator<BuyModel>
+    {
+        public BuyModelValidator()
+        {
+            RuleFor(x => x.product_list)
+                .NotNull()
+                .WithMessage("Note!. You must add at least one product.")
+                .NotEmpty()
+                .WithMessage("Note!. You must add at least one product.")
+                .Must(s => s.Count() > 0)
+                .WithMessage("Note!. You must add at least one product.");
+                
+        }
+    }
+    public class ProductBuyListlValidator : AbstractValidator<ProductBuyList>
+    {
+        public ProductBuyListlValidator()
+        {
+            RuleFor(x => x.ProductAmount).GreaterThan(0)
+                .WithMessage("Note!. Product amount shoud be greater than 0.");
+            RuleFor(x => x.ProductId).NotEmpty().NotNull()
+                .WithMessage("Note!. Product Id  is required");
+
         }
     }
 }

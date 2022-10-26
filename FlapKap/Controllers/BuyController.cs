@@ -16,32 +16,35 @@ namespace FlapKap.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class DepositController : Controller
+    public class BuyController : Controller
     {
-        private readonly ILogger<DepositController> _logger;
+        private readonly ILogger<BuyController> _logger;
         private readonly IMapper _mapper;
-        private readonly ILogger<DepositService> _Servicelogger;
+        private readonly IRepository<Product> _productRepo = null;
+        private readonly ILogger<BuyService> _Servicelogger;
         private readonly IRepository<User> _userRepo = null;
-        public DepositController(ILogger<DepositController> logger, IRepository<User> repository, ILogger<DepositService> Servicelogger, IMapper mapper)
+        public BuyController(ILogger<BuyController> logger, IRepository<User> userRepository, IRepository<Product> productRepository, ILogger<BuyService> Servicelogger, IMapper mapper)
         {
             _logger = logger;
-            _userRepo = repository;
+            _userRepo = userRepository;
+            _productRepo = productRepository;
             _Servicelogger = Servicelogger;
             _mapper = mapper;
         }
-        // POST api/<DepositController>
+
+        // POST api/<BuyController>
         [HttpPost]
-        public DepositResult Post([FromBody] DepositModel model)
+        public BuyResult Post([FromBody] BuyModel model)
         {
-            DepositResult objResult = null;
-            _logger.LogInformation(string.Format("Add deposit for buyer user : {0}", model.user.UserName));
+            BuyResult objResult = null;
+            _logger.LogInformation(string.Format("Buy Products by user name: {0}", model.user.UserName));
             try
             {
-                objResult = new DepositService(_Servicelogger, _userRepo,  _mapper).UpdateDeposit(model);
+                objResult = new BuyService(_Servicelogger, _userRepo, _productRepo,  _mapper).BuyProduct(model);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Unable to add deposit.");
+                _logger.LogError(ex, "Unable to Puy products.");
                 objResult.status = StatusMessages.InvalidParams;
             }
             return objResult;

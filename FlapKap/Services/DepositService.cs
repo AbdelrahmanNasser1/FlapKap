@@ -72,7 +72,7 @@ namespace FlapKap.Services
             catch (Exception ex)
             {
 
-                _logger.LogInformation(ex, string.Format("Failed to Create product: {0}", model.user.UserName));
+                _logger.LogInformation(ex, string.Format("Failed to add deposit: {0}", model.user.UserName));
                 objResult.status = StatusMessages.InvalidParams;
             }
             return objResult;

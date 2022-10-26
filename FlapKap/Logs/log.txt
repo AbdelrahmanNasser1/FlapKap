@@ -1,0 +1,922 @@
+10/26/2022 01:09:49Application started successfully ...
+10/26/2022 01:09:50Application started. Press Ctrl+C to shut down.
+10/26/2022 01:09:50Hosting environment: "Development"
+10/26/2022 01:09:50Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 01:09:50Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 01:09:50Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 78.0398ms
+10/26/2022 01:09:50Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 01:09:50Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.1288ms
+10/26/2022 01:11:22Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 106
+10/26/2022 01:11:22Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:11:22Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:11:22Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:11:22Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+10/26/2022 01:11:22Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 417.3896ms
+10/26/2022 01:11:22Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:11:22Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 106 - 400 - application/problem+json;+charset=utf-8 466.6067ms
+10/26/2022 01:11:48Application started successfully ...
+10/26/2022 01:11:49Application started. Press Ctrl+C to shut down.
+10/26/2022 01:11:49Hosting environment: "Development"
+10/26/2022 01:11:49Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 01:11:49Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 01:11:49Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 61.5241ms
+10/26/2022 01:12:01Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 83
+10/26/2022 01:12:01Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:12:01Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:12:02Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:12:31Application started successfully ...
+10/26/2022 01:12:32Application started. Press Ctrl+C to shut down.
+10/26/2022 01:12:32Hosting environment: "Development"
+10/26/2022 01:12:32Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 01:12:32Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 01:12:33Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 60.0395ms
+10/26/2022 01:12:35Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 83
+10/26/2022 01:12:35Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:12:35Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:12:35Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:12:55Application started successfully ...
+10/26/2022 01:12:56Application started. Press Ctrl+C to shut down.
+10/26/2022 01:12:56Hosting environment: "Development"
+10/26/2022 01:12:56Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 01:12:56Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 01:12:56Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 65.0945ms
+10/26/2022 01:12:57Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 83
+10/26/2022 01:12:57Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:12:57Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:12:58Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:13:17Application started successfully ...
+10/26/2022 01:13:18Application started. Press Ctrl+C to shut down.
+10/26/2022 01:13:18Hosting environment: "Development"
+10/26/2022 01:13:18Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 01:13:18Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 01:13:18Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 73.4695ms
+10/26/2022 01:13:19Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 83
+10/26/2022 01:13:19Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:13:19Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:13:19Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:13:53Application started successfully ...
+10/26/2022 01:13:54Application started. Press Ctrl+C to shut down.
+10/26/2022 01:13:54Hosting environment: "Development"
+10/26/2022 01:13:54Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 01:13:54Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 01:13:54Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 67.6681ms
+10/26/2022 01:14:00Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 106
+10/26/2022 01:14:00Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:14:00Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:14:00Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:14:00Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+10/26/2022 01:14:00Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 426.3764ms
+10/26/2022 01:14:00Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:14:00Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 106 - 400 - application/problem+json;+charset=utf-8 500.2327ms
+10/26/2022 01:14:10Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 166
+10/26/2022 01:14:10Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:14:10Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:14:10Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:14:10Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+10/26/2022 01:14:10Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 59.667ms
+10/26/2022 01:14:10Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:14:10Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 166 - 400 - application/problem+json;+charset=utf-8 61.6826ms
+10/26/2022 01:14:18Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 166
+10/26/2022 01:14:18Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:14:18Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:14:18Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:14:18Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+10/26/2022 01:14:18Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 6.6368ms
+10/26/2022 01:14:18Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:14:18Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 166 - 400 - application/problem+json;+charset=utf-8 7.5941ms
+10/26/2022 01:14:36Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 155
+10/26/2022 01:14:36Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:14:36Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:14:36Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:14:36Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+10/26/2022 01:14:36Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 1.7757ms
+10/26/2022 01:14:36Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:14:36Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 155 - 400 - application/problem+json;+charset=utf-8 2.8333ms
+10/26/2022 01:49:52Application started successfully ...
+10/26/2022 01:49:52Application started. Press Ctrl+C to shut down.
+10/26/2022 01:49:52Hosting environment: "Development"
+10/26/2022 01:49:52Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 01:49:52Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 01:49:53Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 78.3717ms
+10/26/2022 01:49:53Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 01:49:53Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 60.6096ms
+10/26/2022 01:53:25Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 165
+10/26/2022 01:53:25Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:53:25Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:53:25Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:53:25Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 01:53:29Buy Products by user name: Galal tamer
+10/26/2022 01:53:34Buy products by user: Galal tamer
+10/26/2022 01:53:36Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 01:53:58Check Availability for products to buy by user.
+10/26/2022 01:54:07Executed DbCommand ("11"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 01:54:30Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 64871.5105ms.
+10/26/2022 01:54:30Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 01:54:30Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 65350.3719ms
+10/26/2022 01:54:30Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:54:30Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 165 - 200 - application/json;+charset=utf-8 65404.3174ms
+10/26/2022 01:54:39Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 166
+10/26/2022 01:54:39Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:54:39Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:54:39Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:54:39Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 01:54:42Buy Products by user name: Galal tamer
+10/26/2022 01:54:46Buy products by user: Galal tamer
+10/26/2022 01:54:47Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 01:54:47Check Availability for products to buy by user.
+10/26/2022 01:54:47Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 01:54:52Check Availability for products to buy by user.
+10/26/2022 01:55:36Application started successfully ...
+10/26/2022 01:55:37Application started. Press Ctrl+C to shut down.
+10/26/2022 01:55:37Hosting environment: "Development"
+10/26/2022 01:55:37Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 01:55:37Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 01:55:37Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 63.5432ms
+10/26/2022 01:56:24Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 228
+10/26/2022 01:56:24Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:56:24Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:56:24Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:56:24Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+10/26/2022 01:56:24Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 433.8495ms
+10/26/2022 01:56:24Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:56:24Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 228 - 400 - application/problem+json;+charset=utf-8 500.8271ms
+10/26/2022 01:56:36Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 229
+10/26/2022 01:56:36Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:56:36Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:56:36Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:56:37Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 01:56:38Buy Products by user name: Galal tamer
+10/26/2022 01:56:42Buy products by user: Galal tamer
+10/26/2022 01:56:49Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 01:56:51Check Availability for products to buy by user.
+10/26/2022 01:56:55Executed DbCommand ("11"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 01:58:10Application started successfully ...
+10/26/2022 01:58:11Application started. Press Ctrl+C to shut down.
+10/26/2022 01:58:11Hosting environment: "Development"
+10/26/2022 01:58:11Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 01:58:11Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 01:58:11Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 71.5256ms
+10/26/2022 01:58:11Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 01:58:11Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.9606ms
+10/26/2022 01:58:13Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 229
+10/26/2022 01:58:13Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:58:13Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 01:58:13Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 01:58:13Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 01:58:14Buy Products by user name: Galal tamer
+10/26/2022 01:58:14Buy products by user: Galal tamer
+10/26/2022 01:58:16Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 01:58:17Check Availability for products to buy by user.
+10/26/2022 01:58:20Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 01:58:28Unavailability for product name CacaCola to be bought.
+10/26/2022 01:58:28Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 14854.1163ms.
+10/26/2022 01:58:28Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 01:58:28Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 15346.031ms
+10/26/2022 01:58:28Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 01:58:28Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 229 - 200 - application/json;+charset=utf-8 15392.0804ms
+10/26/2022 02:00:03Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 228
+10/26/2022 02:00:03Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:00:03Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 02:00:03Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 02:00:03Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 02:00:06Buy Products by user name: Galal tamer
+10/26/2022 02:00:06Buy products by user: Galal tamer
+10/26/2022 02:00:06Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 02:00:08Check Availability for products to buy by user.
+10/26/2022 02:00:10Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:00:16Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:00:24Unavailability for product name CocaCola orange to be bought.
+10/26/2022 02:00:24Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 21052.1108ms.
+10/26/2022 02:00:24Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 02:00:24Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 21097.3025ms
+10/26/2022 02:00:24Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:00:24Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 228 - 200 - application/json;+charset=utf-8 21102.9054ms
+10/26/2022 02:01:34Application started successfully ...
+10/26/2022 02:01:35Application started. Press Ctrl+C to shut down.
+10/26/2022 02:01:35Hosting environment: "Development"
+10/26/2022 02:01:35Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 02:01:35Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 02:01:35Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 74.9994ms
+10/26/2022 02:01:45Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 229
+10/26/2022 02:01:45Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:01:45Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 02:01:45Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 02:01:45Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 02:01:48Buy Products by user name: Galal tamer
+10/26/2022 02:01:48Buy products by user: Galal tamer
+10/26/2022 02:01:49Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 02:01:51Check Availability for products to buy by user.
+10/26/2022 02:01:53Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:01:58Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:02:09Failed to get product: 14
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FlapKap.Services.BuyService.CheckProductAvailability(List`1 produtBuyLists) in C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap\Services\BuyService.cs:line 80
+10/26/2022 02:09:25Application started successfully ...
+10/26/2022 02:09:26Application started. Press Ctrl+C to shut down.
+10/26/2022 02:09:26Hosting environment: "Development"
+10/26/2022 02:09:26Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 02:09:26Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 02:09:26Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 60.1375ms
+10/26/2022 02:09:27Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 229
+10/26/2022 02:09:27Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:09:27Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 02:09:27Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 02:09:27Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 02:09:30Buy Products by user name: Galal tamer
+10/26/2022 02:09:30Buy products by user: Galal tamer
+10/26/2022 02:09:31Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 02:09:32Check Availability for products to buy by user.
+10/26/2022 02:09:35Executed DbCommand ("11"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:09:39Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:09:41Failed to get product: 14
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FlapKap.Services.BuyService.CheckProductAvailability(List`1 produtBuyLists) in C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap\Services\BuyService.cs:line 86
+10/26/2022 02:10:03product with id 14 not found to be bought.
+10/26/2022 02:10:05Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 38108.7613ms.
+10/26/2022 02:10:05Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 02:10:05Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 38600.3872ms
+10/26/2022 02:10:05Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:10:05Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 229 - 200 - application/json;+charset=utf-8 38668.9908ms
+10/26/2022 02:29:09Application started successfully ...
+10/26/2022 02:29:10Application started. Press Ctrl+C to shut down.
+10/26/2022 02:29:10Hosting environment: "Development"
+10/26/2022 02:29:10Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 02:29:10Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 02:29:10Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 63.5209ms
+10/26/2022 02:29:12Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 229
+10/26/2022 02:29:12Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:29:12Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 02:29:12Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 02:29:13Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 02:29:14Buy Products by user name: Galal tamer
+10/26/2022 02:29:14Buy products by user: Galal tamer
+10/26/2022 02:29:16Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 02:29:16Check Availability for products to buy by user.
+10/26/2022 02:29:16Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:29:16Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:29:32Failed to get product: 14
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at FlapKap.Services.BuyService.CheckProductAvailability(List`1 produtBuyLists) in C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap\Services\BuyService.cs:line 89
+10/26/2022 02:29:39product with id 14 not found to be bought.
+10/26/2022 02:29:43Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 30522.0684ms.
+10/26/2022 02:29:43Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 02:29:43Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 31021.2056ms
+10/26/2022 02:29:43Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:29:43Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 229 - 200 - application/json;+charset=utf-8 31081.8967ms
+10/26/2022 02:40:23Application started successfully ...
+10/26/2022 02:40:23Application started. Press Ctrl+C to shut down.
+10/26/2022 02:40:23Hosting environment: "Development"
+10/26/2022 02:40:23Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 02:40:24Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 02:40:24Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 63.7346ms
+10/26/2022 02:41:17Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 226
+10/26/2022 02:41:17Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:41:17Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 02:41:17Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 02:41:17Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 02:41:19Buy Products by user name: Galal tamer
+10/26/2022 02:41:27Buy products by user: Galal tamer
+10/26/2022 02:41:30Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 02:41:34Check Availability for products to buy by user.
+10/26/2022 02:41:34Executed DbCommand ("11"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:41:34Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:41:42Check Availability deposit for user to buy .
+10/26/2022 02:43:13Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 116175.9561ms.
+10/26/2022 02:43:13Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 02:43:13Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 116662.8254ms
+10/26/2022 02:43:13Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:43:13Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 226 - 200 - application/json;+charset=utf-8 116727.3923ms
+10/26/2022 02:43:22Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 226
+10/26/2022 02:43:22Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:43:22Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 02:43:22Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 02:43:22Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 02:43:24Buy Products by user name: Galal tamer
+10/26/2022 02:43:25Buy products by user: Galal tamer
+10/26/2022 02:43:25Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 02:43:25Check Availability for products to buy by user.
+10/26/2022 02:43:25Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:43:25Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 02:43:30Check Availability deposit for user to buy .
+10/26/2022 02:43:47User deposit 160 doesn't enough to complete purchase process with amount 200
+10/26/2022 02:43:50Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 27399.9176ms.
+10/26/2022 02:43:50Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 02:43:50Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 27464.0216ms
+10/26/2022 02:43:50Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 02:43:50Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 226 - 200 - application/json;+charset=utf-8 27466.9526ms
+10/26/2022 02:59:22Application started successfully ...
+10/26/2022 02:59:23Application started. Press Ctrl+C to shut down.
+10/26/2022 02:59:23Hosting environment: "Development"
+10/26/2022 02:59:23Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 02:59:23Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 02:59:23Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 76.4562ms
+10/26/2022 02:59:24Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 02:59:24Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.8605ms
+10/26/2022 03:24:27Application started successfully ...
+10/26/2022 03:24:28Application started. Press Ctrl+C to shut down.
+10/26/2022 03:24:28Hosting environment: "Development"
+10/26/2022 03:24:28Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 03:24:28Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 03:24:28Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 63.1877ms
+10/26/2022 03:24:48Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 226
+10/26/2022 03:24:48Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:24:48Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 03:24:49Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:24:49Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:24:53Buy Products by user name: Galal tamer
+10/26/2022 03:24:53Buy products by user: Galal tamer
+10/26/2022 03:24:54Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:24:54Check Availability for products to buy by user.
+10/26/2022 03:24:54Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:24:54Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:24:57Check Availability deposit for user to buy .
+10/26/2022 03:26:42Application started successfully ...
+10/26/2022 03:26:43Application started. Press Ctrl+C to shut down.
+10/26/2022 03:26:43Hosting environment: "Development"
+10/26/2022 03:26:43Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 03:26:43Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 03:26:43Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 71.9839ms
+10/26/2022 03:26:43Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 03:26:43Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.3682ms
+10/26/2022 03:26:46Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 226
+10/26/2022 03:26:46Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:26:46Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 03:26:46Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:26:46Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:26:49Buy Products by user name: Galal tamer
+10/26/2022 03:26:49Buy products by user: Galal tamer
+10/26/2022 03:26:50Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:26:50Check Availability for products to buy by user.
+10/26/2022 03:26:50Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:26:50Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:26:53Check Availability deposit for user to buy .
+10/26/2022 03:27:56Executed DbCommand ("2"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Products] SET [AvaliableAmount] = @p0, [Cost] = @p1, [ProductName] = @p2, [SellerId] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:28:08Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:28:16Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:28:52Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:29:00Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:29:01Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Products] SET [AvaliableAmount] = @p0, [Cost] = @p1, [ProductName] = @p2, [SellerId] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:29:01Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:29:02Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:29:04Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:29:09Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 142678.1353ms.
+10/26/2022 03:29:09Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 03:29:09Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 143175.4855ms
+10/26/2022 03:29:09Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:29:09Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 226 - 200 - application/json;+charset=utf-8 143233.7565ms
+10/26/2022 03:30:52Application started successfully ...
+10/26/2022 03:30:53Application started. Press Ctrl+C to shut down.
+10/26/2022 03:30:53Hosting environment: "Development"
+10/26/2022 03:30:53Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 03:30:53Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 03:30:53Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 61.9242ms
+10/26/2022 03:31:49Application started successfully ...
+10/26/2022 03:31:50Application started. Press Ctrl+C to shut down.
+10/26/2022 03:31:50Hosting environment: "Development"
+10/26/2022 03:31:50Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 03:31:50Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 03:31:50Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 64.4696ms
+10/26/2022 03:31:53Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 226
+10/26/2022 03:31:53Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:31:53Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 03:31:53Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:31:53Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:31:56Buy Products by user name: Galal tamer
+10/26/2022 03:31:56Buy products by user: Galal tamer
+10/26/2022 03:31:57Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:31:57Check Availability for products to buy by user.
+10/26/2022 03:31:57Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:31:57Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:32:00Check Availability deposit for user to buy .
+10/26/2022 03:32:00Executed DbCommand ("1"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Products] SET [AvaliableAmount] = @p0, [Cost] = @p1, [ProductName] = @p2, [SellerId] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:32:00Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:32:00Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:32:00Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:32:00Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:32:00Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:32:00Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Products] SET [AvaliableAmount] = @p0, [Cost] = @p1, [ProductName] = @p2, [SellerId] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:32:00Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:32:00Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:32:00Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:32:00Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:32:00Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 6630.3415ms.
+10/26/2022 03:32:00Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 03:32:00Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 7122.7135ms
+10/26/2022 03:32:00Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:32:00Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 226 - 200 - application/json;+charset=utf-8 7176.1793ms
+10/26/2022 03:32:50Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 226
+10/26/2022 03:32:50Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:32:50Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 03:32:50Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:32:50Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:32:52Buy Products by user name: Galal tamer
+10/26/2022 03:32:52Buy products by user: Galal tamer
+10/26/2022 03:32:52Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:32:52Check Availability for products to buy by user.
+10/26/2022 03:32:52Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:32:52Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:32:55Check Availability deposit for user to buy .
+10/26/2022 03:32:55User deposit 0 doesn't enough to complete purchase process with amount 80
+10/26/2022 03:32:55Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4563.0855ms.
+10/26/2022 03:32:55Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 03:32:55Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 4614.0577ms
+10/26/2022 03:32:55Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:32:55Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 226 - 200 - application/json;+charset=utf-8 4626.9558ms
+10/26/2022 03:34:46Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 226
+10/26/2022 03:34:46Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:34:46Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 03:34:46Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:34:46Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:34:47Buy Products by user name: salem yousef
+10/26/2022 03:34:47Buy products by user: salem yousef
+10/26/2022 03:34:47Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:34:47Check Availability for products to buy by user.
+10/26/2022 03:34:47Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:34:47Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:34:48Check Availability deposit for user to buy .
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Products] SET [AvaliableAmount] = @p0, [Cost] = @p1, [ProductName] = @p2, [SellerId] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Products] SET [AvaliableAmount] = @p0, [Cost] = @p1, [ProductName] = @p2, [SellerId] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:34:48Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:34:48Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2331.1427ms.
+10/26/2022 03:34:48Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 03:34:48Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 2351.5959ms
+10/26/2022 03:34:48Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:34:48Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 226 - 200 - application/json;+charset=utf-8 2360.6320ms
+10/26/2022 03:36:11Application started successfully ...
+10/26/2022 03:36:12Application started. Press Ctrl+C to shut down.
+10/26/2022 03:36:12Hosting environment: "Development"
+10/26/2022 03:36:12Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 03:36:12Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 03:36:12Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 64.6125ms
+10/26/2022 03:36:13Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 226
+10/26/2022 03:36:13Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:36:13Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 03:36:13Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:36:13Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:36:14Buy Products by user name: salem yousef
+10/26/2022 03:36:14Buy products by user: salem yousef
+10/26/2022 03:36:16Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:36:16Check Availability for products to buy by user.
+10/26/2022 03:36:16Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:36:16Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:36:18Check Availability deposit for user to buy .
+10/26/2022 03:36:18User deposit 20 doesn't enough to complete purchase process with amount 80
+10/26/2022 03:36:18Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4455.1245ms.
+10/26/2022 03:36:18Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 03:36:18Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 4958.1752ms
+10/26/2022 03:36:18Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:36:18Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 226 - 200 - application/json;+charset=utf-8 5020.6220ms
+10/26/2022 03:37:08Request starting HTTP/2 POST https://localhost:44360/api/Deposit application/json 98
+10/26/2022 03:37:08Executing endpoint '"FlapKap.Controllers.DepositController.Post (FlapKap)"'
+10/26/2022 03:37:08Route matched with "{action = \"Post\", controller = \"Deposit\"}". Executing controller action with signature "FlapKap.Results.DepositResult Post(FlapKap.Results.DepositModel)" on controller "FlapKap.Controllers.DepositController" ("FlapKap").
+10/26/2022 03:37:08Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:37:08Executing action method "FlapKap.Controllers.DepositController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:37:09Add deposit for buyer user : salem yousef
+10/26/2022 03:37:09Add deposit amount to account of user: salem yousef
+10/26/2022 03:37:09Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:37:09Executed DbCommand ("1"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:37:09Executed action method "FlapKap.Controllers.DepositController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1063.919ms.
+10/26/2022 03:37:09Executing "ObjectResult", writing value of type '"FlapKap.Results.DepositResult"'.
+10/26/2022 03:37:09Executed action "FlapKap.Controllers.DepositController.Post (FlapKap)" in 1101.3191ms
+10/26/2022 03:37:09Executed endpoint '"FlapKap.Controllers.DepositController.Post (FlapKap)"'
+10/26/2022 03:37:09Request finished HTTP/2 POST https://localhost:44360/api/Deposit application/json 98 - 200 - application/json;+charset=utf-8 1118.2353ms
+10/26/2022 03:37:16Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 226
+10/26/2022 03:37:16Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:37:16Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 03:37:16Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:37:16Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:37:17Buy Products by user name: salem yousef
+10/26/2022 03:37:17Buy products by user: salem yousef
+10/26/2022 03:37:17Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:37:17Check Availability for products to buy by user.
+10/26/2022 03:37:17Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:37:17Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:37:19Check Availability deposit for user to buy .
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Products] SET [AvaliableAmount] = @p0, [Cost] = @p1, [ProductName] = @p2, [SellerId] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Products] SET [AvaliableAmount] = @p0, [Cost] = @p1, [ProductName] = @p2, [SellerId] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+10/26/2022 03:37:19Executed DbCommand ("0"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 03:37:19Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3018.5421ms.
+10/26/2022 03:37:19Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 03:37:19Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 3037.4774ms
+10/26/2022 03:37:19Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:37:19Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 226 - 200 - application/json;+charset=utf-8 3038.5679ms
+10/26/2022 03:37:59Request starting HTTP/2 POST https://localhost:44360/api/Buy application/json 226
+10/26/2022 03:37:59Executing endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:37:59Route matched with "{action = \"Post\", controller = \"Buy\"}". Executing controller action with signature "FlapKap.Results.BuyResult Post(FlapKap.Results.BuyModel)" on controller "FlapKap.Controllers.BuyController" ("FlapKap").
+10/26/2022 03:37:59Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:37:59Executing action method "FlapKap.Controllers.BuyController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:38:00Buy Products by user name: salem yousef
+10/26/2022 03:38:00Buy products by user: salem yousef
+10/26/2022 03:38:00Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:38:00Check Availability for products to buy by user.
+10/26/2022 03:38:00Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[AvaliableAmount], [p].[Cost], [p].[ProductName], [p].[SellerId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0"
+10/26/2022 03:38:00Unavailability for product name CacaCola to be bought.
+10/26/2022 03:38:00Executed action method "FlapKap.Controllers.BuyController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1164.3306ms.
+10/26/2022 03:38:00Executing "ObjectResult", writing value of type '"FlapKap.Results.BuyResult"'.
+10/26/2022 03:38:00Executed action "FlapKap.Controllers.BuyController.Post (FlapKap)" in 1178.4326ms
+10/26/2022 03:38:00Executed endpoint '"FlapKap.Controllers.BuyController.Post (FlapKap)"'
+10/26/2022 03:38:00Request finished HTTP/2 POST https://localhost:44360/api/Buy application/json 226 - 200 - application/json;+charset=utf-8 1185.8036ms
+10/26/2022 03:58:26Application started successfully ...
+10/26/2022 03:58:27Application started. Press Ctrl+C to shut down.
+10/26/2022 03:58:27Hosting environment: "Development"
+10/26/2022 03:58:27Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 03:58:27Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 03:58:27Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 73.8135ms
+10/26/2022 03:58:27Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 03:58:27Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.0675ms
+10/26/2022 03:58:49Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 60
+10/26/2022 03:58:49Executing endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 03:58:49Route matched with "{action = \"Post\", controller = \"Reset\"}". Executing controller action with signature "FlapKap.Results.Status Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.ResetController" ("FlapKap").
+10/26/2022 03:58:49Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:58:50Executing action method "FlapKap.Controllers.ResetController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:58:54Reset deposit for buyer user : Galal tamer
+10/26/2022 03:58:57Reset deposit amount for user: Galal tamer
+10/26/2022 03:58:59Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:59:09Executed action method "FlapKap.Controllers.ResetController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 19051.2866ms.
+10/26/2022 03:59:09Executing "ObjectResult", writing value of type '"FlapKap.Results.Status"'.
+10/26/2022 03:59:09Executed action "FlapKap.Controllers.ResetController.Post (FlapKap)" in 19530.8018ms
+10/26/2022 03:59:09Executed endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 03:59:09Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 60 - 200 - application/json;+charset=utf-8 19580.4240ms
+10/26/2022 03:59:33Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 60
+10/26/2022 03:59:33Executing endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 03:59:33Route matched with "{action = \"Post\", controller = \"Reset\"}". Executing controller action with signature "FlapKap.Results.Status Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.ResetController" ("FlapKap").
+10/26/2022 03:59:33Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 03:59:33Executing action method "FlapKap.Controllers.ResetController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 03:59:36Reset deposit for buyer user : tamer yousef
+10/26/2022 03:59:36Reset deposit amount for user: tamer yousef
+10/26/2022 03:59:36Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 03:59:36Unauthorized Only Buyers Users Can Reset their deposits:  tamer yousef
+10/26/2022 03:59:36Executed action method "FlapKap.Controllers.ResetController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2256.4948ms.
+10/26/2022 03:59:36Executing "ObjectResult", writing value of type '"FlapKap.Results.Status"'.
+10/26/2022 03:59:36Executed action "FlapKap.Controllers.ResetController.Post (FlapKap)" in 2328.9213ms
+10/26/2022 03:59:36Executed endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 03:59:36Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 60 - 200 - application/json;+charset=utf-8 2334.5948ms
+10/26/2022 04:01:39Application started successfully ...
+10/26/2022 04:01:40Application started. Press Ctrl+C to shut down.
+10/26/2022 04:01:40Hosting environment: "Development"
+10/26/2022 04:01:40Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 04:01:40Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 04:01:40Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 58.3419ms
+10/26/2022 04:01:42Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 60
+10/26/2022 04:01:42Executing endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 04:01:42Route matched with "{action = \"Post\", controller = \"Reset\"}". Executing controller action with signature "FlapKap.Results.Status Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.ResetController" ("FlapKap").
+10/26/2022 04:01:42Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 04:01:42Executing action method "FlapKap.Controllers.ResetController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 04:01:44Reset deposit for buyer user : tamer yousef
+10/26/2022 04:01:44Reset deposit amount for user: tamer yousef
+10/26/2022 04:01:45Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 04:01:45Unauthorized Only Buyers Users Can Reset their deposits:  tamer yousef
+10/26/2022 04:01:45Executed action method "FlapKap.Controllers.ResetController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2641.0816ms.
+10/26/2022 04:01:45Executing "ObjectResult", writing value of type '"FlapKap.Results.Status"'.
+10/26/2022 04:01:45Executed action "FlapKap.Controllers.ResetController.Post (FlapKap)" in 3129.857ms
+10/26/2022 04:01:45Executed endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 04:01:45Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 60 - 200 - application/json;+charset=utf-8 3183.5561ms
+10/26/2022 04:02:04Application started successfully ...
+10/26/2022 04:02:05Application started. Press Ctrl+C to shut down.
+10/26/2022 04:02:05Hosting environment: "Development"
+10/26/2022 04:02:05Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 04:02:05Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 04:02:05Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 74.4688ms
+10/26/2022 04:02:05Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 04:02:05Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.0634ms
+10/26/2022 04:02:08Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 60
+10/26/2022 04:02:08Executing endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 04:02:08Route matched with "{action = \"Post\", controller = \"Reset\"}". Executing controller action with signature "FlapKap.Results.Status Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.ResetController" ("FlapKap").
+10/26/2022 04:02:09Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 04:02:09Executing action method "FlapKap.Controllers.ResetController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 04:02:10Reset deposit for buyer user : tamer yousef
+10/26/2022 04:02:10Reset deposit amount for user: tamer yousef
+10/26/2022 04:02:11Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 04:02:11Unauthorized Only Buyers Users Can Reset their deposits:  tamer yousef
+10/26/2022 04:02:11Executed action method "FlapKap.Controllers.ResetController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2565.7665ms.
+10/26/2022 04:02:11Executing "ObjectResult", writing value of type '"FlapKap.Results.Status"'.
+10/26/2022 04:02:11Executed action "FlapKap.Controllers.ResetController.Post (FlapKap)" in 3032.1005ms
+10/26/2022 04:02:11Executed endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 04:02:11Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 60 - 200 - application/json;+charset=utf-8 3072.3752ms
+10/26/2022 04:02:42Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 60
+10/26/2022 04:02:42Executing endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 04:02:42Route matched with "{action = \"Post\", controller = \"Reset\"}". Executing controller action with signature "FlapKap.Results.Status Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.ResetController" ("FlapKap").
+10/26/2022 04:02:42Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 04:02:42Executing action method "FlapKap.Controllers.ResetController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 04:02:45Reset deposit for buyer user : salem yousef
+10/26/2022 04:02:45Reset deposit amount for user: salem yousef
+10/26/2022 04:02:45Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 04:02:45Executed DbCommand ("10"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 04:02:45Executed action method "FlapKap.Controllers.ResetController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2799.9621ms.
+10/26/2022 04:02:45Executing "ObjectResult", writing value of type '"FlapKap.Results.Status"'.
+10/26/2022 04:02:45Executed action "FlapKap.Controllers.ResetController.Post (FlapKap)" in 2843.7824ms
+10/26/2022 04:02:45Executed endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 04:02:45Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 60 - 200 - application/json;+charset=utf-8 2849.8123ms

@@ -50,6 +50,7 @@ namespace FlapKap
             services.AddTransient<IValidator<UpdateProductModel>, UpdateProductValidator>();
             services.AddTransient<IValidator<UserInfo>, UserInfoValidator>();
             services.AddTransient<IValidator<DepositModel>, DepositModelValidator>();
+            services.AddTransient<IValidator<ProductBuyList>, ProductBuyListlValidator>();
             
             services.AddSwaggerGen(c =>
             {

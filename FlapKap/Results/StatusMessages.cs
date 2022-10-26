@@ -22,6 +22,11 @@ namespace FlapKap.Results
         public static Status DuplicatedProductName = new Status() { is_success = false, error_code = "E008", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E008"] };
         public static Status UnAuthenticated = new Status() { is_success = false, error_code = "E009", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E009"] };
         public static Status UnAuthorizedDeposit = new Status() { is_success = false, error_code = "E010", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E010"] };
+        public static Status UnAvailabilityProduct = new Status() { is_success = false, error_code = "E011", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E011"] };
+        public static Status ProductNotFound = new Status() { is_success = false, error_code = "E012", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E012"] };
+        public static Status UnAvailableDeposit = new Status() { is_success = false, error_code = "E013", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E013"] };
+        public static Status UnAuthorizedReset = new Status() { is_success = false, error_code = "E014", error_message = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("Status")["E014"] };
+
 
 
 
