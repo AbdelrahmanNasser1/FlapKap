@@ -4,6 +4,7 @@ using FlapKap.Repository;
 using FlapKap.Response;
 using FlapKap.Results;
 using FlapKap.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -17,6 +18,8 @@ namespace FlapKap.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class ResetController : Controller
     {
         private readonly ILogger<ResetController> _logger;

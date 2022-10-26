@@ -4,6 +4,7 @@ using FlapKap.Repository;
 using FlapKap.Response;
 using FlapKap.Results;
 using FlapKap.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -17,6 +18,7 @@ namespace FlapKap.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsersController : Controller
     {
         private readonly ILogger<UsersController> _logger;
@@ -67,6 +69,7 @@ namespace FlapKap.Controllers
         }
 
         // POST api/<UsersController>
+        [AllowAnonymous]
         [HttpPost]
         public UserResult Post([FromBody] UserModel model)
         {

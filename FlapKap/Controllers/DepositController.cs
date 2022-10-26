@@ -3,6 +3,7 @@ using FlapKap.Models;
 using FlapKap.Repository;
 using FlapKap.Results;
 using FlapKap.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -16,6 +17,8 @@ namespace FlapKap.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class DepositController : Controller
     {
         private readonly ILogger<DepositController> _logger;

@@ -4,6 +4,7 @@ using FlapKap.Repository;
 using FlapKap.Response;
 using FlapKap.Results;
 using FlapKap.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -17,6 +18,8 @@ namespace FlapKap.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class ProductsController : Controller
     {
         private readonly ILogger<ProductsController> _logger;
@@ -34,6 +37,7 @@ namespace FlapKap.Controllers
         }
         // GET: api/<ProductsController>
         [HttpGet]
+        [AllowAnonymous]
         public ProductsforGetAll Get()
         {
             ProductsforGetAll objResult = null;
