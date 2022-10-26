@@ -4,12 +4,14 @@ using FlapKap.Repository;
 using FlapKap.Response;
 using FlapKap.Results;
 using FlapKap.Services;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -38,16 +40,29 @@ namespace FlapKap.Controllers
         [HttpPost]
         public ResetResult Post([FromBody] UserInfo model)
         {
-            ResetResult objResult = null;
             _logger.LogInformation(string.Format("Reset deposit for buyer user : {0}", model.UserName));
-            try
+            ResetResult objResult = new ResetResult();
+
+            string userName = User.Claims.First(i => i.Type == "UserName").Value;
+            string password = User.Claims.First(i => i.Type == "Password").Value;
+            if (userName == model.UserName && password == model.Password)
             {
-                objResult = new ResetService(_Servicelogger, _userRepo, _mapper).ResetDeposit(model);
+                try
+                {
+                    objResult = new ResetService(_Servicelogger, _userRepo, _mapper).ResetDeposit(model);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Unable to reset deposit.");
+                    objResult.status = StatusMessages.InvalidParams;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(ex, "Unable to reset deposit.");
+                _logger.LogInformation("Invalid Credentials.");
                 objResult.status = StatusMessages.InvalidParams;
+                objResult.status.error_message = "Invalid Credentials.";
+                return objResult;
             }
             return objResult;
         }

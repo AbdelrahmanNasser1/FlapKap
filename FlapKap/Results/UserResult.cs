@@ -11,6 +11,8 @@ namespace FlapKap.Response
     {
         public int Id  { get; set; }
         public string UserName { get; set; }
+        public string Deposit { get; set; }
+        public int RoleId { get; set; }
     }
     public class UserResultForGet 
     {
@@ -22,6 +24,8 @@ namespace FlapKap.Response
     {
         public int Id { get; set; }
         public string UserName { get; set; }
+        public int RoleId { get; set; }
+
     }
     public class UpdateModel
     {

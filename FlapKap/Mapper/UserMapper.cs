@@ -17,6 +17,8 @@ namespace FlapKap.Mapper
 
             CreateMap<UpdateUserModel, User>();
             CreateMap<User, UserModel>();
+            CreateMap<User, UserInfo>();
+            CreateMap<User, UserResult>();
             CreateMap<User, UserResultsForGet>();
         }
         

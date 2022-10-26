@@ -38,16 +38,30 @@ namespace FlapKap.Controllers
         [HttpPost]
         public BuyResult Post([FromBody] BuyModel model)
         {
-            BuyResult objResult = null;
+            BuyResult objResult = new BuyResult();
             _logger.LogInformation(string.Format("Buy Products by user name: {0}", model.user.UserName));
-            try
+
+            string userName = User.Claims.First(i => i.Type == "UserName").Value;
+            string password = User.Claims.First(i => i.Type == "Password").Value;
+
+            if (userName == model.user.UserName && password == model.user.Password)
             {
-                objResult = new BuyService(_Servicelogger, _userRepo, _productRepo,  _mapper).BuyProduct(model);
+                try
+                {
+                    objResult = new BuyService(_Servicelogger, _userRepo, _productRepo, _mapper).BuyProduct(model);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Unable to Puy products.");
+                    objResult.status = StatusMessages.InvalidParams;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(ex, "Unable to Puy products.");
+                _logger.LogInformation("Invalid Credentials.");
                 objResult.status = StatusMessages.InvalidParams;
+                objResult.status.error_message = "Invalid Credentials.";
+                return objResult;
             }
             return objResult;
         }

@@ -36,16 +36,30 @@ namespace FlapKap.Controllers
         [HttpPost]
         public DepositResult Post([FromBody] DepositModel model)
         {
-            DepositResult objResult = null;
+            DepositResult objResult = new DepositResult();
             _logger.LogInformation(string.Format("Add deposit for buyer user : {0}", model.user.UserName));
-            try
+
+            string userName = User.Claims.First(i => i.Type == "UserName").Value;
+            string password = User.Claims.First(i => i.Type == "Password").Value;
+
+            if (userName == model.user.UserName && password == model.user.Password)
             {
-                objResult = new DepositService(_Servicelogger, _userRepo,  _mapper).UpdateDeposit(model);
+                try
+                {
+                    objResult = new DepositService(_Servicelogger, _userRepo, _mapper).UpdateDeposit(model);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Unable to add deposit.");
+                    objResult.status = StatusMessages.InvalidParams;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(ex, "Unable to add deposit.");
+                _logger.LogInformation("Invalid Credentials.");
                 objResult.status = StatusMessages.InvalidParams;
+                objResult.status.error_message = "Invalid Credentials.";
+                return objResult;
             }
             return objResult;
         }

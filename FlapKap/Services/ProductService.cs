@@ -175,9 +175,11 @@ namespace FlapKap.Services
 
             //Intialize product object
             Product newProduct = new Product();
+            int availableAmount = 0;
             try
             {
                 newProduct = _productRepo.GetById(id);
+                availableAmount = newProduct.AvaliableAmount;
                 if (newProduct.SellerId != existUser.Id)
                 {
                     _logger.LogInformation(string.Format("UnAuthenticated Can't Update product {0} for another Seller.", newProduct.ProductName));
@@ -188,6 +190,7 @@ namespace FlapKap.Services
                 newProduct = _mapper.Map<Product>(model);
                 newProduct.SellerId = existUser.Id;
                 newProduct.Id = id;
+                newProduct.AvaliableAmount += availableAmount;
                 _productRepo.Update(newProduct);
                 _productRepo.Save();
 

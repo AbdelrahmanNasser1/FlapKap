@@ -57,6 +57,14 @@ namespace FlapKap.Services
             return _userRepo.GetAll(i => i.UserName == model.UserName).FirstOrDefault().Id;
              
         }
+        public UserInfo ReturnUser(int id)
+        {
+            UserInfo userInfo = new UserInfo();
+            _logger.LogInformation(string.Format("Return user with id {0}", id));
+            userInfo = _mapper.Map<UserInfo>(_userRepo.GetById(id));
+            return userInfo;
+
+        }
         public UserResultForGet RetrieveUsers()
         {
             _logger.LogInformation("Retrieve users ...");
@@ -81,8 +89,7 @@ namespace FlapKap.Services
             try
             {
                 User user=_userRepo.GetById(id);
-                objResult.Id = user.Id;
-                objResult.UserName = user.UserName;
+                objResult = _mapper.Map<UserResult>(user);
                 objResult.Status = StatusMessages.Success;
 
             }

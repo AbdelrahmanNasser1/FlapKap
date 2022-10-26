@@ -58,17 +58,31 @@ namespace FlapKap.Controllers
         [HttpGet("id")]
         public ProductForGet Get(int id,  string  user_name , string password)
         {
-            ProductForGet objResult = null;
+            ProductForGet objResult = new ProductForGet();
             UserInfo model = new UserInfo {UserName= user_name,Password=password };
             _logger.LogInformation(string.Format("Retrieve Product: {0}", id));
-            try
+
+            string userName = User.Claims.First(i => i.Type == "UserName").Value;
+            string token_password = User.Claims.First(i => i.Type == "Password").Value;
+
+            if (userName == model.UserName && token_password == model.Password)
             {
-                objResult = new ProductService(_Servicelogger, _productRepo, _userRepo, _mapper).GetProduct(id,model);
+                try
+                {
+                    objResult = new ProductService(_Servicelogger, _productRepo, _userRepo, _mapper).GetProduct(id, model);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Can not Retrieve Product.");
+                    objResult.Status = StatusMessages.InvalidParams;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(ex, "Can not Retrieve Product.");
+                _logger.LogInformation("Invalid Credentials.");
                 objResult.Status = StatusMessages.InvalidParams;
+                objResult.Status.error_message = "Invalid Credentials.";
+                return objResult;
             }
             return objResult;
         }
@@ -77,16 +91,30 @@ namespace FlapKap.Controllers
         [HttpPost]
         public ProductResult Post([FromBody] ProductModel model)
         {
-            ProductResult objResult = null;
+            ProductResult objResult = new ProductResult();
             _logger.LogInformation(string.Format("Create Product: {0}",model.ProductName));
-            try
+
+            string userName = User.Claims.First(i => i.Type == "UserName").Value;
+            string password = User.Claims.First(i => i.Type == "Password").Value;
+
+            if (userName == model.User.UserName && password == model.User.Password)
             {
-                objResult = new ProductService(_Servicelogger, _productRepo,_userRepo, _mapper).CreateProduct(model);
+                try
+                {
+                    objResult = new ProductService(_Servicelogger, _productRepo, _userRepo, _mapper).CreateProduct(model);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Unable to create User.");
+                    objResult.Status = StatusMessages.InvalidParams;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(ex, "Unable to create User.");
+                _logger.LogInformation("Invalid Credentials.");
                 objResult.Status = StatusMessages.InvalidParams;
+                objResult.Status.error_message = "Invalid Credentials.";
+                return objResult;
             }
             return objResult;
         }
@@ -95,16 +123,30 @@ namespace FlapKap.Controllers
         [HttpPut("{id}")]
         public UpdateProduct Put(int id, [FromBody] UpdateProductModel model)
         {
-            UpdateProduct objResult = null;
+            UpdateProduct objResult = new UpdateProduct();
             _logger.LogInformation(string.Format("Update Product: {0}", id));
-            try
+
+            string userName = User.Claims.First(i => i.Type == "UserName").Value;
+            string password = User.Claims.First(i => i.Type == "Password").Value;
+
+            if (userName == model.User.UserName && password == model.User.Password)
             {
-                objResult = new ProductService(_Servicelogger, _productRepo, _userRepo, _mapper).UpdateProduct(id, model);
+                try
+                {
+                    objResult = new ProductService(_Servicelogger, _productRepo, _userRepo, _mapper).UpdateProduct(id, model);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Can not Update Product.");
+                    objResult.Status = StatusMessages.InvalidParams;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(ex, "Can not Update Product.");
+                _logger.LogInformation("Invalid Credentials.");
                 objResult.Status = StatusMessages.InvalidParams;
+                objResult.Status.error_message = "Invalid Credentials.";
+                return objResult;
             }
             return objResult;
         }
@@ -115,14 +157,28 @@ namespace FlapKap.Controllers
         {
             Status objResult = null;
             _logger.LogInformation(string.Format("Delete Product: {0}", id));
-            try
+
+            string userName = User.Claims.First(i => i.Type == "UserName").Value;
+            string password = User.Claims.First(i => i.Type == "Password").Value;
+
+            if (userName == model.UserName && password == model.Password)
             {
-                objResult = new ProductService(_Servicelogger, _productRepo, _userRepo, _mapper).DeleteProduct(id, model);
+                try
+                {
+                    objResult = new ProductService(_Servicelogger, _productRepo, _userRepo, _mapper).DeleteProduct(id, model);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Can not Delete Product.");
+                    objResult = StatusMessages.InvalidParams;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(ex, "Can not Delete Product.");
+                _logger.LogInformation("Invalid Credentials.");
                 objResult = StatusMessages.InvalidParams;
+                objResult.error_message = "Invalid Credentials.";
+                return objResult;
             }
             return objResult;
         }

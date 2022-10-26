@@ -54,16 +54,32 @@ namespace FlapKap.Controllers
         [HttpGet("{id}")]
         public UserResult Get(int id)
         {
-            UserResult objResult = null;
+            UserResult objResult = new UserResult();
             _logger.LogInformation(string.Format("Retrieve User with id {0}: ",id));
-            try
+
+            string userName = User.Claims.First(i => i.Type == "UserName").Value;
+            string password = User.Claims.First(i => i.Type == "Password").Value;
+
+            UserInfo userInfo = new UserService(_Servicelogger, _userRepo, _mapper).ReturnUser(id);
+
+            if (userName == userInfo.UserName && password == userInfo.Password)
             {
-                objResult = new UserService(_Servicelogger, _userRepo, _mapper).GetUser(id);
+                try
+                {
+                    objResult = new UserService(_Servicelogger, _userRepo, _mapper).GetUser(id);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, string.Format("Unable to Get User with id {0}: ", id));
+                    objResult.Status = StatusMessages.InvalidParams;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(ex, string.Format("Unable to Get User with id {0}: ",id));
+                _logger.LogInformation("Invalid Credentials.");
                 objResult.Status = StatusMessages.InvalidParams;
+                objResult.Status.error_message = "Invalid Credentials.";
+                return objResult;
             }
             return objResult;
         }
@@ -91,16 +107,30 @@ namespace FlapKap.Controllers
         [HttpPut]
         public UpdateModel Put([FromBody] UpdateUserModel model)
         {
-            UpdateModel objResult = null;
+            UpdateModel objResult = new UpdateModel();
             _logger.LogInformation(string.Format("Update User {0}: ",model.UserName));
-            try
+
+            string userName = User.Claims.First(i => i.Type == "UserName").Value;
+            string password = User.Claims.First(i => i.Type == "Password").Value;
+
+            if (userName == model.UserName && password == model.Password)
             {
-                objResult = new UserService(_Servicelogger, _userRepo, _mapper).UpdateUser(model);
+                try
+                {
+                    objResult = new UserService(_Servicelogger, _userRepo, _mapper).UpdateUser(model);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, string.Format("Unable to Update User: {0}.", model.UserName));
+                    objResult.status = StatusMessages.InvalidParams;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(ex, string.Format("Unable to Update User: {0}.",model.UserName));
+                _logger.LogInformation("Invalid Credentials.");
                 objResult.status = StatusMessages.InvalidParams;
+                objResult.status.error_message = "Invalid Credentials.";
+                return objResult;
             }
             return objResult;
         }
@@ -109,16 +139,32 @@ namespace FlapKap.Controllers
         [HttpDelete("{id}")]
         public Status Delete(int id)
         {
-            Status objResult = null;
+            Status objResult = new Status();
             _logger.LogInformation(string.Format("Delete User with id:  {0}: ",id));
-            try
+
+            string userName = User.Claims.First(i => i.Type == "UserName").Value;
+            string password = User.Claims.First(i => i.Type == "Password").Value;
+
+            UserInfo userInfo = new UserService(_Servicelogger, _userRepo, _mapper).ReturnUser(id);
+
+            if (userName == userInfo.UserName && password == userInfo.Password)
             {
-                objResult = new UserService(_Servicelogger, _userRepo, _mapper).RemoveUser(id);
+                try
+                {
+                    objResult = new UserService(_Servicelogger, _userRepo, _mapper).RemoveUser(id);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, string.Format("Unable to Update User: {0}.", id));
+                    objResult = StatusMessages.InvalidParams;
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(ex, string.Format("Unable to Update User: {0}.",id));
+                _logger.LogInformation("Invalid Credentials.");
                 objResult = StatusMessages.InvalidParams;
+                objResult.error_message = "Invalid Credentials.";
+                return objResult;
             }
             return objResult;
         }
