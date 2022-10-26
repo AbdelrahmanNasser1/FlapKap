@@ -36,9 +36,9 @@ namespace FlapKap.Controllers
 
         // POST api/<ResetController>
         [HttpPost]
-        public Status Post([FromBody] UserInfo model)
+        public ResetResult Post([FromBody] UserInfo model)
         {
-            Status objResult = null;
+            ResetResult objResult = null;
             _logger.LogInformation(string.Format("Reset deposit for buyer user : {0}", model.UserName));
             try
             {
@@ -47,7 +47,7 @@ namespace FlapKap.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Unable to reset deposit.");
-                objResult = StatusMessages.InvalidParams;
+                objResult.status = StatusMessages.InvalidParams;
             }
             return objResult;
         }

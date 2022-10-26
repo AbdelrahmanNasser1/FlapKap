@@ -1032,3 +1032,186 @@ FROM [Products] AS [p]"
 10/26/2022 17:46:51Route matched with "{action = \"Post\", controller = \"Users\"}". Executing controller action with signature "FlapKap.Response.UserResult Post(FlapKap.Response.UserModel)" on controller "FlapKap.Controllers.UsersController" ("FlapKap").
 10/26/2022 17:46:51Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
 10/26/2022 17:46:51Executing action method "FlapKap.Controllers.UsersController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 18:04:24Application started successfully ...
+10/26/2022 18:04:25User profile is available. Using '"C:\Users\abdelrahman.nasser\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+10/26/2022 18:04:25Application started. Press Ctrl+C to shut down.
+10/26/2022 18:04:25Hosting environment: "Development"
+10/26/2022 18:04:25Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 18:04:25Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 18:04:25Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 79.1881ms
+10/26/2022 18:04:25Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 18:04:25Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.6481ms
+10/26/2022 18:04:32Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 52
+10/26/2022 18:04:32Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+10/26/2022 18:04:32AuthenticationScheme: "Bearer" was challenged.
+10/26/2022 18:04:32Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 52 - 401 - - 70.6534ms
+10/26/2022 18:04:42Request starting HTTP/2 POST https://localhost:44360/api/Users application/json 84
+10/26/2022 18:04:42Executing endpoint '"FlapKap.Controllers.UsersController.Post (FlapKap)"'
+10/26/2022 18:04:43Route matched with "{action = \"Post\", controller = \"Users\"}". Executing controller action with signature "FlapKap.Response.UserResult Post(FlapKap.Response.UserModel)" on controller "FlapKap.Controllers.UsersController" ("FlapKap").
+10/26/2022 18:04:43Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 18:04:43Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+10/26/2022 18:04:43Executed action "FlapKap.Controllers.UsersController.Post (FlapKap)" in 423.6575ms
+10/26/2022 18:04:43Executed endpoint '"FlapKap.Controllers.UsersController.Post (FlapKap)"'
+10/26/2022 18:04:43Request finished HTTP/2 POST https://localhost:44360/api/Users application/json 84 - 400 - application/problem+json;+charset=utf-8 457.7487ms
+10/26/2022 18:05:55Application started successfully ...
+10/26/2022 18:05:56User profile is available. Using '"C:\Users\abdelrahman.nasser\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+10/26/2022 18:05:56Application started. Press Ctrl+C to shut down.
+10/26/2022 18:05:56Hosting environment: "Development"
+10/26/2022 18:05:56Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 18:05:56Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 18:05:57Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 73.3888ms
+10/26/2022 18:05:57Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 18:05:57Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.7315ms
+10/26/2022 18:06:31Request starting HTTP/2 POST https://localhost:44360/api/Users application/json 84
+10/26/2022 18:06:31Executing endpoint '"FlapKap.Controllers.UsersController.Post (FlapKap)"'
+10/26/2022 18:06:31Route matched with "{action = \"Post\", controller = \"Users\"}". Executing controller action with signature "FlapKap.Response.UserResult Post(FlapKap.Response.UserModel)" on controller "FlapKap.Controllers.UsersController" ("FlapKap").
+10/26/2022 18:06:32Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 18:06:32Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+10/26/2022 18:06:32Executed action "FlapKap.Controllers.UsersController.Post (FlapKap)" in 417.0401ms
+10/26/2022 18:06:32Executed endpoint '"FlapKap.Controllers.UsersController.Post (FlapKap)"'
+10/26/2022 18:06:32Request finished HTTP/2 POST https://localhost:44360/api/Users application/json 84 - 400 - application/problem+json;+charset=utf-8 509.6959ms
+10/26/2022 18:22:12Application started successfully ...
+10/26/2022 18:22:12User profile is available. Using '"C:\Users\abdelrahman.nasser\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+10/26/2022 18:22:13Application started. Press Ctrl+C to shut down.
+10/26/2022 18:22:13Hosting environment: "Development"
+10/26/2022 18:22:13Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 18:22:13Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 18:22:13Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 65.8432ms
+10/26/2022 18:22:13Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 18:22:13Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.2988ms
+10/26/2022 18:22:18Request starting HTTP/2 POST https://localhost:44360/api/Deposit application/json 88
+10/26/2022 18:22:18Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+10/26/2022 18:22:18AuthenticationScheme: "Bearer" was challenged.
+10/26/2022 18:22:18Request finished HTTP/2 POST https://localhost:44360/api/Deposit application/json 88 - 401 - - 79.3518ms
+10/26/2022 18:23:43Request starting HTTP/2 POST https://localhost:44360/api/JwtToken application/json 60
+10/26/2022 18:23:43Executing endpoint '"FlapKap.Controllers.JwtTokenController.Post (FlapKap)"'
+10/26/2022 18:23:43Route matched with "{action = \"Post\", controller = \"JwtToken\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.JwtTokenController" ("FlapKap").
+10/26/2022 18:23:43Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 18:23:43Executing action method "FlapKap.Controllers.JwtTokenController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 18:23:45Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 18:23:45Executed action method "FlapKap.Controllers.JwtTokenController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1446.2493ms.
+10/26/2022 18:23:45Executing "OkObjectResult", writing value of type '"System.String"'.
+10/26/2022 18:23:45Executed action "FlapKap.Controllers.JwtTokenController.Post (FlapKap)" in 1869.7252ms
+10/26/2022 18:23:45Executed endpoint '"FlapKap.Controllers.JwtTokenController.Post (FlapKap)"'
+10/26/2022 18:23:45Request finished HTTP/2 POST https://localhost:44360/api/JwtToken application/json 60 - 200 - text/plain;+charset=utf-8 1911.3811ms
+10/26/2022 18:24:41Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 60
+10/26/2022 18:24:41Successfully validated the token.
+10/26/2022 18:24:41Authorization was successful.
+10/26/2022 18:24:41Executing endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 18:24:41Route matched with "{action = \"Post\", controller = \"Reset\"}". Executing controller action with signature "FlapKap.Results.ResetResult Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.ResetController" ("FlapKap").
+10/26/2022 18:24:41Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 18:24:41Executing action method "FlapKap.Controllers.ResetController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 18:24:43Reset deposit for buyer user : Said yousef
+10/26/2022 18:24:43Reset deposit amount for user: Said yousef
+10/26/2022 18:24:43Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 18:24:43Executed DbCommand ("11"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 18:24:43Executed action method "FlapKap.Controllers.ResetController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1677.0054ms.
+10/26/2022 18:24:43Executing "ObjectResult", writing value of type '"FlapKap.Results.ResetResult"'.
+10/26/2022 18:24:43Executed action "FlapKap.Controllers.ResetController.Post (FlapKap)" in 1764.8319ms
+10/26/2022 18:24:43Executed endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 18:24:43Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 60 - 200 - application/json;+charset=utf-8 1824.9105ms
+10/26/2022 18:24:54Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 60
+10/26/2022 18:24:54Successfully validated the token.
+10/26/2022 18:24:54Authorization was successful.
+10/26/2022 18:24:54Executing endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 18:24:54Route matched with "{action = \"Post\", controller = \"Reset\"}". Executing controller action with signature "FlapKap.Results.ResetResult Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.ResetController" ("FlapKap").
+10/26/2022 18:24:54Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 18:24:54Executing action method "FlapKap.Controllers.ResetController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 18:24:55Reset deposit for buyer user : Said yousef
+10/26/2022 18:24:55Reset deposit amount for user: Said yousef
+10/26/2022 18:24:55Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 18:24:55Executed action method "FlapKap.Controllers.ResetController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1277.3914ms.
+10/26/2022 18:24:55Executing "ObjectResult", writing value of type '"FlapKap.Results.ResetResult"'.
+10/26/2022 18:24:55Executed action "FlapKap.Controllers.ResetController.Post (FlapKap)" in 1294.668ms
+10/26/2022 18:24:55Executed endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 18:24:55Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 60 - 200 - application/json;+charset=utf-8 1297.2126ms
+10/26/2022 18:27:38Application started successfully ...
+10/26/2022 18:27:39User profile is available. Using '"C:\Users\abdelrahman.nasser\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+10/26/2022 18:27:39Application started. Press Ctrl+C to shut down.
+10/26/2022 18:27:39Hosting environment: "Development"
+10/26/2022 18:27:39Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/26/2022 18:27:39Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/26/2022 18:27:39Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 75.3109ms
+10/26/2022 18:27:39Request starting HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - -
+10/26/2022 18:27:40Request finished HTTP/2 GET https://localhost:44360/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.5832ms
+10/26/2022 18:28:20Request starting HTTP/2 POST https://localhost:44360/api/JwtToken application/json 60
+10/26/2022 18:28:20Executing endpoint '"FlapKap.Controllers.JwtTokenController.Post (FlapKap)"'
+10/26/2022 18:28:20Route matched with "{action = \"Post\", controller = \"JwtToken\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.JwtTokenController" ("FlapKap").
+10/26/2022 18:28:20Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 18:28:20Executing action method "FlapKap.Controllers.JwtTokenController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 18:28:22Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 18:28:22Executed action method "FlapKap.Controllers.JwtTokenController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1414.9375ms.
+10/26/2022 18:28:22Executing "OkObjectResult", writing value of type '"System.String"'.
+10/26/2022 18:28:22Executed action "FlapKap.Controllers.JwtTokenController.Post (FlapKap)" in 1834.8343ms
+10/26/2022 18:28:22Executed endpoint '"FlapKap.Controllers.JwtTokenController.Post (FlapKap)"'
+10/26/2022 18:28:22Request finished HTTP/2 POST https://localhost:44360/api/JwtToken application/json 60 - 200 - text/plain;+charset=utf-8 1927.2358ms
+10/26/2022 18:28:53Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 60
+10/26/2022 18:28:53Successfully validated the token.
+10/26/2022 18:28:53Authorization was successful.
+10/26/2022 18:28:53Executing endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 18:28:53Route matched with "{action = \"Post\", controller = \"Reset\"}". Executing controller action with signature "FlapKap.Results.ResetResult Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.ResetController" ("FlapKap").
+10/26/2022 18:28:53Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 18:28:53Executing action method "FlapKap.Controllers.ResetController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 18:28:55Reset deposit for buyer user : Said yousef
+10/26/2022 18:28:55Reset deposit amount for user: Said yousef
+10/26/2022 18:28:55Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 18:28:56Executed action method "FlapKap.Controllers.ResetController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2646.3461ms.
+10/26/2022 18:28:56Executing "ObjectResult", writing value of type '"FlapKap.Results.ResetResult"'.
+10/26/2022 18:28:56Executed action "FlapKap.Controllers.ResetController.Post (FlapKap)" in 2734.1941ms
+10/26/2022 18:28:56Executed endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 18:28:56Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 60 - 200 - application/json;+charset=utf-8 2794.9479ms
+10/26/2022 18:29:20Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 60
+10/26/2022 18:29:20Successfully validated the token.
+10/26/2022 18:29:20Authorization was successful.
+10/26/2022 18:29:20Executing endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 18:29:20Route matched with "{action = \"Post\", controller = \"Reset\"}". Executing controller action with signature "FlapKap.Results.ResetResult Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.ResetController" ("FlapKap").
+10/26/2022 18:29:20Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 18:29:20Executing action method "FlapKap.Controllers.ResetController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 18:29:23Reset deposit for buyer user : salem yousef
+10/26/2022 18:29:23Reset deposit amount for user: salem yousef
+10/26/2022 18:29:23Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 18:29:23Executed action method "FlapKap.Controllers.ResetController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2736.6978ms.
+10/26/2022 18:29:23Executing "ObjectResult", writing value of type '"FlapKap.Results.ResetResult"'.
+10/26/2022 18:29:23Executed action "FlapKap.Controllers.ResetController.Post (FlapKap)" in 2767.6312ms
+10/26/2022 18:29:23Executed endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 18:29:23Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 60 - 200 - application/json;+charset=utf-8 2774.6878ms
+10/26/2022 18:30:19Request starting HTTP/2 POST https://localhost:44360/api/Reset application/json 61
+10/26/2022 18:30:19Successfully validated the token.
+10/26/2022 18:30:19Authorization was successful.
+10/26/2022 18:30:19Executing endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 18:30:19Route matched with "{action = \"Post\", controller = \"Reset\"}". Executing controller action with signature "FlapKap.Results.ResetResult Post(FlapKap.Response.UserInfo)" on controller "FlapKap.Controllers.ResetController" ("FlapKap").
+10/26/2022 18:30:19Entity Framework Core "5.0.17" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+10/26/2022 18:30:19Executing action method "FlapKap.Controllers.ResetController.Post (FlapKap)" - Validation state: Valid
+10/26/2022 18:30:20Reset deposit for buyer user : salem yousef.
+10/26/2022 18:30:20Reset deposit amount for user: salem yousef.
+10/26/2022 18:30:20Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Deposit], [u].[Password], [u].[RoleId], [u].[UserName]
+FROM [Users] AS [u]"
+10/26/2022 18:30:20Executed DbCommand ("10"ms) [Parameters=["@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Deposit] = @p0, [Password] = @p1, [RoleId] = @p2, [UserName] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;"
+10/26/2022 18:30:20Executed action method "FlapKap.Controllers.ResetController.Post (FlapKap)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1492.5659ms.
+10/26/2022 18:30:20Executing "ObjectResult", writing value of type '"FlapKap.Results.ResetResult"'.
+10/26/2022 18:30:20Executed action "FlapKap.Controllers.ResetController.Post (FlapKap)" in 1503.4622ms
+10/26/2022 18:30:20Executed endpoint '"FlapKap.Controllers.ResetController.Post (FlapKap)"'
+10/26/2022 18:30:20Request finished HTTP/2 POST https://localhost:44360/api/Reset application/json 61 - 200 - application/json;+charset=utf-8 1510.3979ms
