@@ -82,12 +82,14 @@ namespace FlapKap.Validators
             RuleFor(x => x.UserName).NotEmpty().NotNull()
                 .WithMessage("Note!. UserName  is required");
             RuleFor(x => x.Password).NotEmpty().NotNull()
-                .WithMessage("Note!. Password  is required");
+                .WithMessage("Note!. Password  is required")
+                .MinimumLength(8)
+                .WithMessage("Note!. Password length shouldn't less than 8 characters");
             RuleFor(x => x.Deposit).GreaterThan(0)
                 .WithMessage("Note!. Deposit amount shoud be greater than 0");
             RuleFor(x => x.RoleId).GreaterThan(0)
                 .WithMessage("Note!. Deposit amount shoud be greater than 0");
-
+            
         }
     }
 }
