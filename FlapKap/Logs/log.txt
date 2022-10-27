@@ -1827,3 +1827,17 @@ SELECT @@ROWCOUNT;"
 10/26/2022 20:27:44Executed action "FlapKap.Controllers.ProductsController.Put (FlapKap)" in 3275.9689ms
 10/26/2022 20:27:44Executed endpoint '"FlapKap.Controllers.ProductsController.Put (FlapKap)"'
 10/26/2022 20:27:44Request finished HTTP/2 PUT https://localhost:44360/api/Products/2 application/json 153 - 200 - application/json;+charset=utf-8 3479.9935ms
+10/27/2022 16:03:44Application started successfully ...
+10/27/2022 16:03:44User profile is available. Using '"C:\Users\abdelrahman.nasser\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+10/27/2022 16:03:45Application started. Press Ctrl+C to shut down.
+10/27/2022 16:03:45Hosting environment: "Development"
+10/27/2022 16:03:45Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/27/2022 16:03:45Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/27/2022 16:03:45Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 62.0228ms
+10/27/2022 16:04:44Application started successfully ...
+10/27/2022 16:04:45User profile is available. Using '"C:\Users\abdelrahman.nasser\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+10/27/2022 16:04:45Application started. Press Ctrl+C to shut down.
+10/27/2022 16:04:45Hosting environment: "Development"
+10/27/2022 16:04:45Content root path: "C:\Users\abdelrahman.nasser\Source\Repos\FlapKap\FlapKap"
+10/27/2022 16:04:45Request starting HTTP/2 GET https://localhost:44360/swagger/index.html - -
+10/27/2022 16:04:45Request finished HTTP/2 GET https://localhost:44360/swagger/index.html - - - 200 - text/html;charset=utf-8 58.7056ms

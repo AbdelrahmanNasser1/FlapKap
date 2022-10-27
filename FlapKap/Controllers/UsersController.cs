@@ -25,6 +25,10 @@ namespace FlapKap.Controllers
         private readonly ILogger<UserService> _Servicelogger;
         private readonly IMapper _mapper;
         private readonly IRepository<User> _userRepo = null;
+        public UsersController()
+        {
+
+        }
         public UsersController(ILogger<UsersController> logger , IRepository<User> repository, ILogger<UserService> Servicelogger, IMapper mapper)
         {
             _logger = logger;
