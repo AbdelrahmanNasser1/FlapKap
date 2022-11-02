@@ -1,5 +1,6 @@
 ﻿using FlapKap.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace FlapKap.Context
 {
@@ -24,5 +25,15 @@ namespace FlapKap.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<Role> Roles { get; set; }
 
+    }
+    public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
+    {
+        public ApplicationDbContext CreateDbContext(string[] args)
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
+            optionsBuilder.UseSqlServer("Data Source=ABDELRAHMAN-NAS\\MSSQLSERVER15;Initial Catalog=FlapKap;Integrated Security=True;");
+
+            return new ApplicationDbContext(optionsBuilder.Options);
+        }
     }
 }

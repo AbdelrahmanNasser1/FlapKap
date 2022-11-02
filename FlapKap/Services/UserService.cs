@@ -40,6 +40,9 @@ namespace FlapKap.Services
                 _userRepo.Save();
                 objResult.Id = ReturnId(model);
                 objResult.UserName = user.UserName;
+                objResult.Deposit = user.Deposit.ToString();
+                objResult.RoleId = user.RoleId;
+
                 objResult.Status = StatusMessages.Success;
 
             }

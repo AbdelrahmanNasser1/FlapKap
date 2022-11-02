@@ -25,10 +25,7 @@ namespace FlapKap.Controllers
         private readonly ILogger<UserService> _Servicelogger;
         private readonly IMapper _mapper;
         private readonly IRepository<User> _userRepo = null;
-        public UsersController()
-        {
 
-        }
         public UsersController(ILogger<UsersController> logger , IRepository<User> repository, ILogger<UserService> Servicelogger, IMapper mapper)
         {
             _logger = logger;
@@ -117,7 +114,9 @@ namespace FlapKap.Controllers
             string userName = User.Claims.First(i => i.Type == "UserName").Value;
             string password = User.Claims.First(i => i.Type == "Password").Value;
 
-            if (userName == model.UserName && password == model.Password)
+            UserInfo userInfo = new UserService(_Servicelogger, _userRepo, _mapper).ReturnUser(model.Id);
+
+            if (userName == userInfo.UserName && password == userInfo.Password)
             {
                 try
                 {
